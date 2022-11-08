@@ -1,0 +1,89 @@
+body{
+    min-height: 100vh;
+    font-family: "Libre Franklin";
+    font-weight: 300;
+    padding: 50px;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.launch{
+    margin: 25px 0 -5px 0;
+    font-size: 22px;
+}
+
+.blur{
+    opacity: 0.5;
+}
+.soon{
+    font-weight: 600;
+}
+
+input{
+    margin-top: 12px;
+    width: 300px;
+    padding: 10px 15px;
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 25px;
+}
+
+button{
+    background-color: hsl(223, 87%, 63%);
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: 2px solid hsl(223, 87%, 63%);
+    border-radius: 25px;
+    color: white;
+}
+
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.dashboard{
+    margin-top: 60px;
+}
+
+.social{
+    word-spacing: 10px;
+}
+
+i{
+    padding: 5px;
+    color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 50%;
+}
+
+i:hover{
+    cursor: pointer;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+}
+
+.right{
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+@media (max-width: 375px) {
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin: 15px 0 0 0;
+    }
+
+    img{
+        width: 100%;
+    }
+}
